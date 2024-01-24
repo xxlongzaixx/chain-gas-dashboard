@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@covalenthq/client-sdk": "^0.7.5",
     "@headlessui/react": "^1.7.18",
     "@headlessui/tailwindcss": "^0.2.0",
+    "@heroicons/react": "^2.1.1",
     "@tremor/react": "^3.13.2",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
