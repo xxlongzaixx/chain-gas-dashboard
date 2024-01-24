@@ -101,6 +101,10 @@ export default () => {
             placeholder="cqt_xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
             onChange={(e) => setApiKey(e.target.value)}
           />
+          <p className="text-xs text-gray-500 mt-2">
+            Note: Your API key is confidential and not stored. We prioritize
+            your security.
+          </p>
         </Card>
         <Card decoration="top" decorationColor="indigo">
           <Title>Blockchain</Title>
