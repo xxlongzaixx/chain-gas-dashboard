@@ -105,6 +105,18 @@ export default () => {
             Note: Your API key is confidential and not stored. We prioritize
             your security.
           </p>
+          <p className="text-xs text-gray-500 mt-1 dark:text-gray-400">
+            Get your free Covalent API key{" "}
+            <a
+              href="https://www.covalenthq.com/platform/auth/register/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-500 dark:text-green-300"
+            >
+              here
+            </a>
+            !
+          </p>
         </Card>
         <Card decoration="top" decorationColor="indigo">
           <Title>Blockchain</Title>
