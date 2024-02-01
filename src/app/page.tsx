@@ -178,9 +178,8 @@ export default () => {
                       <p>Loading...</p> // You can replace this with a loading spinner or other indicator
                     ) : (
                       <Metric>
-                        {gasDetails
-                          ? `${gasDetails.items[0].pretty_total_gas_quote}`
-                          : "No data available"}
+                        {gasDetails?.items[0]?.pretty_total_gas_quote ??
+                          "No data available"}
                       </Metric>
                     )}
                   </Card>
@@ -205,9 +204,8 @@ export default () => {
                       <p>Loading...</p> // You can replace this with a loading spinner or other indicator
                     ) : (
                       <Metric>
-                        {gasDetails
-                          ? `${gasDetails.items[1].pretty_total_gas_quote}`
-                          : "No data available"}
+                        {gasDetails?.items[1]?.pretty_total_gas_quote ??
+                          "No data available"}
                       </Metric>
                     )}
                   </Card>
@@ -232,9 +230,8 @@ export default () => {
                       <p>Loading...</p> // You can replace this with a loading spinner or other indicator
                     ) : (
                       <Metric>
-                        {gasDetails
-                          ? `${gasDetails.items[2].pretty_total_gas_quote}`
-                          : "No data available"}
+                        {gasDetails?.items[2]?.pretty_total_gas_quote ??
+                          "No data available"}
                       </Metric>
                     )}
                   </Card>
